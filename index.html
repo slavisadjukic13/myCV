@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Event</title>
+    <meta name="description"
+          content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, aliquid ratione?">
+    <meta name="keywords" content="Animal event">
+    <meta name="author" content="Animal event">
+    <meta name="viewport"
+          content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <!-- stylesheet including bootstrap -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+
+    <!-- FAV icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="assets/img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assets/img/favicon/manifest.json">
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#6ea400">
+    <meta name="msapplication-TileImage" content="assets/img/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="assets/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#6ea400">
+    <!-- end of FAV icons -->
+</head>
+<body>
+<!-- script for facebook plugin -->
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/sr_RS/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<nav class="navbar">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar icon-bar-1"></span>
+                <span class="icon-bar icon-bar-2"></span>
+                <span class="icon-bar icon-bar-3"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/animalevent-logo.png" alt="logo">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Zoek hier...">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav main-menu">
+                <li class="active"><a href="#" title="home">home<span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                    <a href="#" title="programma" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">programma</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" title="Clinicgevers">Clinicgevers</a></li>
+                        <li><a href="#" title="Seminars">Seminars</a></li>
+                        <li><a href="#" title="Hondenprofessionals-dag">Hondenprofessionals-dag</a></li>
+                        <li><a href="#" title="Recordpoging">Recordpoging</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Praktische informatie" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Praktische informatie</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" title="Openingstijden">Openingstijden</a></li>
+                        <li><a href="#" title="Toegangsprijzen">Toegangsprijzen</a></li>
+                        <li><a href="#" title="Voorzieningen">Voorzieningen</a></li>
+                        <li><a href="#" title="Route">Route</a></li>
+                        <li><a href="#" title="Overnachten">Overnachten</a></li>
+                        <li><a href="#" title="Dierenwelzijn">Dierenwelzijn</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" title="Standhouders">Standhouders</a></li>
+                <li><a href="#" title="Plattegrond">Plattegrond</a></li>
+                <li class="dropdown">
+                    <a href="#" title="Nieuws" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nieuws</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" title="Laatste nieuws">Laatste nieuws</a></li>
+                        <li><a href="#" title="Publicaties">Publicaties</a></li>
+                        <li><a href="#" title="Inschrijven nieuwsbrief">Inschrijven nieuwsbrief</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Zakelijk" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Zakelijk</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" title="Ondernemers">Ondernemers</a></li>
+                        <li><a href="#" title="Standhouders">Standhouders</a></li>
+                        <li><a href="#" title="Hospitality">Hospitality</a></li>
+                        <li><a href="#" title="Sponsors">Sponsors</a></li>
+                        <li><a href="#" title="Verkiezing">Verkiezing</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav top-menu">
+                <li><a href="#" title="Contact & Route">Contact & Route</a></li>
+                <li><a href="#" title="Organisatie">Organisatie</a></li>
+                <li><a href="#" title="Veelgestelde vragen">Veelgestelde vragen</a></li>
+                <li class="language-selector"><a href="#" class="nl" title="Dutch"><span class="sr-only">Dutch</span></a></li>
+                <li class="language-selector"><a href="#" class="en" title="English"><span class="sr-only">English</span></a></li>
+                <li class="language-selector"><a href="#" class="de" title="German"><span class="sr-only">German</span></a></li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#header-carousel" data-slide-to="1"></li>
+                <li data-target="#header-carousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="assets/img/main-carousel-image.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h1>verkiezing 2013</h1>
+                        <p>win VIP-kaarten</p>
+                        <a class="link-small" href="#" title="Lorem ipsum">Lorem Ipsum</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/main-carousel-image.jpg" alt="...">
+                    <div class="carusel-caption">
+                        <h1>verkiezing 2013</h1>
+                        <p>win VIP-kaarten</p>
+                        <a class="link-small" href="#" title="Lorem ipsum">Lorem Ipsum</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/main-carousel-image.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h1>verkiezing 2013</h1>
+                        <p>win VIP-kaarten</p>
+                        <a class="link-small" href="#" title="Lorem ipsum">Lorem Ipsum</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="main container">
+    <div class="row">
+
+        <!-- left sidebar -->
+        <div class="sidebar left">
+            <div class="row">
+
+                <div class="e-tickets">
+                    <h1 class="title-big">e-tickets</h1>
+                    <a class="link-small" href="#" title="Besten online je tickets">Besten online je tickets</a>
+                </div>
+
+                <div class="program">
+                    <h1 class="title-big">programma</h1>
+                    <a class="link-small" href="#" title="Stel je programma samen">Stel je programma samen</a>
+                </div>
+
+                <div class="photos">
+                    <h1 class="title-big">bekijk foto's</h1>
+                    <a class="link-small" href="#" title="Sfeerimpressie 2012">Sfeerimpressie 2012</a>
+                </div>
+
+                <div class="videos">
+                    <a href="#" title="Videos"><span class="sr-only">Videos</span></a>
+                </div>
+
+            </div>
+        </div>
+        <!-- end of left sidebar -->
+
+        <div class="content">
+            content
+        </div>
+
+        <!-- right sidebar -->
+        <div class="sidebar right">
+            <div class="row">
+
+                <div class="partners">
+                    <h1 class="title-big">partners</h1>
+                    <div id="carousel-partners" class="carousel fade" data-ride="carousel">
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="item active">
+                                <img src="assets/img/partner-1.png" alt="...">
+                            </div>
+
+                            <div class="item">
+                                <img src="assets/img/partner-2.png" alt="...">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="sponsors">
+                    <h1 class="title-big">sponsors</h1>
+                    <div id="carousel-sponsors" class="carousel fade" data-ride="carousel">
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="item active">
+                                <img src="assets/img/sponsor-1.png" alt="...">
+                            </div>
+
+                            <div class="item">
+                                <img src="assets/img/sponsor-2.png" alt="...">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="news">
+                    <h1 class="title-big">news</h1>
+                    <div class="row">
+                        <div class="news-item">
+                            <img src="assets/img/news.jpg">
+                            <p>Lorem dolor sit</p>
+                            <a href="#" title="read more">Bekijk artikel</a>
+                        </div>
+                        <div class="news-item">
+                            <img src="assets/img/news.jpg">
+                            <p>Lorem dolor sit</p>
+                            <a href="#" title="read more">Bekijk artikel</a>
+                        </div>
+                        <a href="#" class="link-small" title="Bekijk alle nieuwsberichten">Bekijk alle nieuwsberichten</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end of right sidebar -->
+
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer-item">
+                <div class="tweets">
+                    <h3>tweets</h3>
+
+                    <p>
+                        <small>05-06-2015</small>
+                        <strong>@AnimalEvent</strong><br>De fotoimpressie van AnimalEvent 2015 staat online! Bekijk de
+                        foto's en geniet nog even na! <a href="http://t.co/ACBHGMwEyH">http://t.co/ACBHGMwEyH</a>
+                    </p>
+                    <p>
+                        <small>18-05-2015</small>
+                        <strong>@AnimalEvent</strong><br><a href="http://www.twitter.com/AnimalEvent">@AnimalEvent</a>
+                        2015 op record koers! https://t.co/E9CWqxlR3v
+                    </p>
+                    <p>
+                        <small>10-05-2015</small>
+                        <strong>@AnimalEvent</strong><br>Rugby op de rug van een stoere Fell Pony, wie wil dat nou niet?
+                        <a href="http://t.co/yjvAcOuUMs">http://t.co/yjvAcOuUMs</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <div class="facebook">
+                    <h3>Find us on Facebook</h3>
+                    <div class="fb-page" data-href="https://www.facebook.com/AnimalEvent" data-small-header="false"
+                         data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
+                         data-show-posts="false">
+                        <div class="fb-xfbml-parse-ignore">
+                            <blockquote cite="https://www.facebook.com/AnimalEvent"><a
+                                    href="https://www.facebook.com/AnimalEvent">Animal Event</a></blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <div class="route">
+                    route
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <div class="contact">
+                    contact
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <ul class="footer-bottom-links">
+                    <li><a href="#" title="disclaimer">disclaimer</a></li>
+                    <li><a href="#" title="disclaimer">privacy statement</a></li>
+                    <li><a href="#" title="disclaimer">sitemap</a></li>
+                    <li><a href="#" title="disclaimer">pers</a></li>
+                    <li><a href="#" title="disclaimer">cookie wetgeving</a></li>
+                    <li><a href="#" title="disclaimer">Academy Bartels</a></li>
+                    <li><a href="#" title="disclaimer">stichting Animal Event</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/components/jquery/dist/jquery.min.js"></script>
+<script src="assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
